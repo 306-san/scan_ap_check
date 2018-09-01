@@ -3,6 +3,7 @@
 CHに変更が起きたときとか、CHに新しいAPが出てきたらslackに通知が飛びます
 
 ## Usage
+※使っているgemの関係上macOSでしか動きません
 post_message.rbにtokenセット
 main.rbのSSIDとCHの情報を登録
 
