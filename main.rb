@@ -16,7 +16,6 @@ loop do
     pp ap.data
     if set_ch.nil?
       # AP_CH_DATAのwifiではない
-      binding.pry
       same_ch_ap_list = AP_CH_DATA.select{|k,v| v=="#{now_ch}"}.keys
       if !same_ch_ap_list.empty? && !same_ch_ap_list.include?(:"#{bssid}") #干渉チェック
         post_slack_ch_interference(now_ch,ap.data.ssid_str.to_s, ap.data.rssi.to_s, ap.data.noise.to_s)
