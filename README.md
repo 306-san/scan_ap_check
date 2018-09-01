@@ -11,3 +11,6 @@ main.rbのSSIDとCHの情報を登録
 bundle install
 bundle exec ruby main.rb
 ```
+
+後は、よしなにに設定すればこんな感じにslackに飛んでくれるはず・・・
+![image](https://user-images.githubusercontent.com/8838979/44945541-9fee8780-ae26-11e8-8fbb-5d8c34601d3c.png)
